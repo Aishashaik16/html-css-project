@@ -1,0 +1,615 @@
+@media screen and (min-width:601px) and (max-width:768px) {
+    .container1 {
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+    }
+
+    .header>.content,
+    .header>.icons {
+        display: none;
+    }
+
+    .list {
+        display: flex;
+    }
+
+    .bi-list {
+        font-size: 2rem;
+    }
+    .bi-list:hover {
+        color: black;
+    }
+    .header-content>a{
+        text-decoration: none;
+        color:black;
+    }
+    .header-content>a:hover{
+        color:orangered;
+    }
+    .header-content>#pgs:hover{
+        color:orangered;
+    }
+    .offcanvas-body {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .carousel-item>img {
+        height:500px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        height:400px;
+    }
+
+    .container2 {
+        /* border: 1px solid black; */
+        height: 1100px;
+        margin-top: 100px;
+        /* margin:10px; */
+        width: 100%;
+    }
+
+    .sub-container21 {
+        /* border: 1px solid black; */
+        height: 35%;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: .5fr;
+    }
+
+    .free-delivery {
+        grid-column: 1/2;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    .qua-gaurantee {
+        grid-column: 2/3;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    .daily-offers {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    .payment {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    .box {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Nunito", serif;
+    }
+
+    .box>.bi {
+        color: orangered;
+        font-size: 30px;
+    }
+
+    .p1>h2,
+    .p2>h2,
+    .p3>h2,
+    .p4>h2 {
+        font-size: 1.4rem;
+    }
+
+    /*sub-container22*/
+    .sub-container22 {
+        /* border: 1px solid black; */
+        height: 900px;
+        margin: 80px 10px;
+    }
+
+    .best-selling {
+        /* border: 1px solid black; */
+        height: 8%;
+        margin-right: 0px;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Nunito", serif;
+    }
+
+    .bsi {
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 10px;
+        /* margin-left: %; */
+    }
+
+    .view-all {
+        padding: 10px 35px;
+        /* border:1px solid black;   */
+        /* margin: 10px; */
+        text-align: center;
+        border-radius: 40px;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        background-color: orangered;
+    }
+
+    .view-all:hover {
+        background-color: black;
+        transition: 0.2s ease;
+    }
+
+    /*carousel-2*/
+    .carousel2 {
+        width: 100%;
+        /* border: 1px solid black; */
+        /* height: 600px; */
+        /* margin: 10px; */
+        /* position: relative; */
+        background-image: url("https://themewagon.github.io/Bookly/images/banner-image-bg.jpg");
+    }
+
+
+    .slider {
+        display: flex;
+        /* justify-content: space-around; */
+        justify-content: center;
+        gap: 5px;
+        padding: 20px;
+    }
+
+    .carousel-control-prev-icon {
+        color: black;
+        /* margin-left: 30px; */
+        font-size: xx-large;
+        /* border: 2px solid blue; */
+    }
+
+    .fa-solid {
+        font-size: 32px;
+        color: black;
+        height: 10px;
+        /* border: 3px solid green; */
+    }
+
+
+    /* .card>.card-img-top {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    
+    } */
+
+    .card {
+        padding: 10px;
+        /* display: flex; */
+        /* justify-content: center; */
+        text-align: center;
+        height: 60vh;
+        width: 30%;
+    }
+
+    .card>.card-img-top {
+        width: 80%;
+        height: 80%;
+        border-radius: 5px;
+        /* margin-left: 12px; */
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    /*background-image-2*/
+    .background-image-2 {
+        background-image: url(https://themewagon.github.io/Bookly/images/banner-image-bg-1.jpg);
+        height: 400px;
+        width: 100%;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg2-content {
+        align-self: center;
+
+    }
+
+    .bg-img-2 {
+        width: 60%;
+    }
+
+    .bg-img-2>img {
+        align-self: center;
+        width: 85%;
+        height: 80%;
+    }
+
+    .bg2-content>p {
+        font-size: 1.3rem;
+        font-family: "Nunito", serif;
+    }
+
+    .shop-collection {
+        padding: 10px;
+        /* border:1px solid black;   */
+        /* margin-top: 100px; */
+        text-align: center;
+        border-radius: 40px;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        background-color: orangered;
+        font-family: "Nunito", serif;
+    }
+
+    /*container-3*/
+    .container3 {
+        /* border: 1px solid; */
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+        margin-top: 10%;
+        /* justify-content: center; */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        /* display: flex; */
+        /* justify-content:center; */
+    }
+
+    .Featured {
+        grid-column: 1/2;
+        /* height: 100px; */
+    }
+
+    .Featured>h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .fea1-content>h5 {
+        font-size: 1rem;
+    }
+
+    .fea1-content>p {
+        font-size: .7rem;
+    }
+
+    .Latest-items {
+        grid-column: 2/3;
+    }
+
+    .Latest-items>h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .Best-reviewed {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .Best-reviewed>h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .Best-reviewed>p {
+        font-size: 0.7rem;
+        /* font-weight: bold; */
+    }
+
+    .On-sale {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .On-sale>h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .rec {
+        width: 70%;
+        /* border: 1px solid lightgray; */
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+
+    .imgcon1 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        gap: 20px;
+        height: 100px;
+    }
+
+    .fea1-content {
+        align-self: center;
+    }
+
+    .imgcon1>img {
+        width: 70%;
+        height: 100%;
+    }
+
+
+    .container4 {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .container4>p {
+        font-size: 1.5rem;
+        font-weight: bold;
+        /* padding: 0px 0px 5px 50px; */
+    }
+
+    .container4-content {
+        /* border: 1px solid; */
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .cont4img {
+        /* border: 1px solid; */
+        width: 30%;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .cont4img>img {
+        width: 450px;
+        height: 200px;
+    }
+
+    .romance,
+    .lifestyle,
+    .recipe {
+        position: absolute;
+        bottom: 1%;
+        left: 1%;
+        padding: 1px;
+        /* border: 1px solid; */
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: rgb(239, 143, 59);
+        color: white;
+    }
+
+
+    /*container-5*/
+    /*background-image-3*/
+    .background-image-3 {
+        background-image: url("https://themewagon.github.io/Bookly/images/banner-image-bg.jpg");
+        height: 600px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 600px;
+    }
+
+
+    .carousel-inner>h1 {
+        /* text-align: center;
+        margin-top: 6%;
+        padding: 20px;*/
+        font-family: "Nunito", serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+    }
+
+    .review1 {
+        /* border: 1px solid; */
+        border-radius: 10px;
+        width: 70%;
+        padding: 30px;
+        background-color: white;
+        text-align: justify;
+        margin-left: 15%;
+        font-family: "Nunito", serif;
+        font-size: 1rem;
+    }
+
+    /*container-6*/
+    .container-6 {
+        /* border: 1px solid black; */
+        /* height: 70vh; */
+        margin-top: 100px;
+        width: 100%;
+        padding: 20px;
+        /* border: 2px solid orange; */
+        /* display: flex; */
+        /* justify-content: space-between; */
+
+    }
+
+    .container-61 {
+        font-size: 1.5rem;
+        margin-left: 4%;
+        display: flex;
+        margin: 15px;
+        justify-content: space-between;
+        gap: 10px;
+        font-family: "Nunito", serif;
+    }
+
+    .container-61>p {
+        font-weight: bold;
+        margin: 15px;
+        margin-left: 4%;
+    }
+
+    .view-all {
+        /* border:1px solid black; */
+        /* margin: 15px;
+    text-align: center;
+    border-radius: 40px; */
+        font-size: 1rem;
+        /* text-decoration: none;
+    color: white;
+    background-color: orangered;
+    margin-right: 4%; */
+    }
+
+    .container-62 {
+        /* border: 1px solid black; */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        font-family: "Nunito", serif;
+    }
+
+    .cont-62-1 {
+        /* border: 2px solid green; */
+        grid-column: 1/2;
+        /* border:1px solid black; */
+        width: 200px;
+        height: 60%;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .cont-62-2 {
+        grid-column: 2/3;
+        /* border:1px solid black; */
+        width: 200px;
+        height: 60%;
+    }
+
+    .cont-62-3 {
+        grid-column: 3/4;
+        /* border:1px solid black; */
+        width: 200px;
+        height: 60%;
+    }
+
+    .cont-62-4 {
+        grid-column: 4/5;
+        /* border:1px solid black; */
+        width: 200px;
+        height: 60%;
+    }
+
+    .image-62 {
+        height: 150px;
+        width: 100%;
+    }
+
+    .image-62:hover {
+        transform: scale(1.5);
+        transition: 0.4s;
+    }
+
+    .para>h5 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .para>span {
+        font-size: .9rem;
+    }
+
+    /*container-7*/
+    .container-7 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .instagram {
+        font-family: "Nunito", serif;
+        text-align: center;
+        font-size:1.5rem;
+        font-weight: bold;
+    }
+
+    .container72-main {
+        gap: 5px;
+        padding:10px;
+    }
+
+    .image-72 {
+        width: 70px;
+        height: 70px;
+    }
+    .image-72 {
+        width:100%;
+        height:50%;
+    }
+    .image-72>img {
+        width:100%;
+        height:50%;
+        border-radius: 5px;
+    }
+
+    .container-8 {
+        padding: 30px;
+        gap: 10px;
+        justify-content: space-evenly;
+        /* background-color: aliceblue; */
+    }
+    .cont-81>p {
+        font-size: 1rem;
+    }
+    .homes,
+    .abouts,
+    .shops,
+    .blogss,
+    .contactss {
+        font-size: 1rem;
+    }
+    .icons-8 {
+        display: flex;
+        gap: 10px;
+        margin-left: 5px;
+        /* justify-content: start; */
+    }
+    .track,
+    .shipping,
+    .contact,
+    .faqs {
+        margin-left: 3px;
+    }
+    .cont-82>p,
+    .cont-83>p {
+        font-size: 1.3rem;
+    }
+    .cont-84>p1 {
+        font-size: 1.3rem;
+    }
+    .cont-84>p {
+        font-size: 1rem;
+    }
+    
+    
+
+
+}

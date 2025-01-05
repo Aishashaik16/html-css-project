@@ -1,0 +1,566 @@
+@media screen and (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container1 {
+        display: none;
+    }
+
+    .header {
+        justify-content: space-around;
+    }
+
+    .header>.content,
+    .header>.icons {
+        display: none;
+    }
+
+    .list {
+        display: flex;
+    }
+
+    .bi-list {
+        font-size: 2rem;
+    }
+
+    .bi-list:hover {
+        color: black;
+    }
+
+    .header-content>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header-content>a:hover {
+        color: orangered;
+    }
+
+    .header-content>#pgs:hover {
+        color: orangered;
+    }
+
+    .offcanvas-body {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /*bg-image*/
+    .carousel-item>img {
+        height: 400px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 350px;
+    }
+
+    /*container-2*/
+    .sub-container21 {
+        height: 40%;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .free-delivery {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .qua-gaurantee {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .daily-offers {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .payment {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .box {
+        display: flex;
+        gap: 10px;
+        justify-content: start;
+        font-family: "Nunito", serif;
+        padding: 10px;
+    }
+
+    .box br {
+        display: none;
+    }
+
+    .box>.bi {
+        color: orangered;
+        font-size: 25px;
+    }
+
+    .p1>h2,
+    .p2>h2,
+    .p3>h2,
+    .p4>h2 {
+        font-size: 1.4rem;
+    }
+
+    /*sub-container22*/
+    .sub-container22 {
+        /* border: 1px solid black; */
+        height: 900px;
+        margin: 80px 10px;
+    }
+
+    .best-selling {
+        /* border: 1px solid black; */
+        height: 8%;
+        margin-right: 0px;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Nunito", serif;
+    }
+
+    .bsi {
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 10px;
+        /* margin-left: %; */
+    }
+
+    .view-all {
+        padding: 10px 35px;
+        /* border:1px solid black;   */
+        /* margin: 10px; */
+        text-align: center;
+        border-radius: 40px;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        background-color: orangered;
+    }
+
+    .view-all:hover {
+        background-color: black;
+        transition: 0.2s ease;
+    }
+
+    /*carousel-2*/
+    .slider {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding: 20px;
+    }
+
+    .carousel2 {
+        width: 100%;
+        /* border: 1px solid black; */
+        /* height: 800px; */
+        /* margin: 10px; */
+        /* position: relative; */
+        background-image: url("https://themewagon.github.io/Bookly/images/banner-image-bg.jpg");
+    }
+
+    .card>.card-img-top {
+        width: 80%;
+        height: 80%;
+        border-radius: 5px;
+        margin-left: 12px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*background-image-2*/
+    .background-image-2 {
+        background-image: url(https://themewagon.github.io/Bookly/images/banner-image-bg-1.jpg);
+        height: 425px;
+        width: 100%;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .bg2-content {
+        align-self: center;
+    }
+
+    .bg-img-2 {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg-img-2>img {
+        width: 97%;
+        height: 80%;
+    }
+
+    .bg2-content br {
+        display: none;
+    }
+
+    .bg2-content>p {
+        font-size: 2.5rem;
+        font-family: "Nunito", serif;
+        text-align: center;
+    }
+
+    .shop-collection {
+        padding: 10px 30px;
+        margin-left: 33%;
+        border-radius: 40px;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        background-color: orangered;
+        font-family: "Nunito", serif;
+    }
+
+
+    /*container-3*/
+    .container3 {
+        height: 100%;
+        margin-top: 60px;
+        margin-left: 80px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: center;
+    }
+
+    .Featured {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .Latest-items {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .Best-reviewed {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .On-sale {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .fea1-content br {
+        display: none;
+    }
+
+    .rec {
+        width: 80%;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .imgcon1 {
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+
+    .fea1-content {
+        align-self: center;
+    }
+
+
+    /*container-4*/
+    .container4 {
+        margin-top: 100px;
+    }
+
+    .container4>p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .container4-content {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .cont4img {
+        /* border: 1px solid; */
+        width: 100%;
+        height: 250px;
+    }
+
+    .cont4img>img {
+        width: 100%;
+        height: 300px;
+    }
+
+
+    /*container-5*/
+    .background-image-3 {
+        height: 500px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 500px;
+    }
+
+    .review1 {
+        border-radius: 10px;
+        width: 70%;
+        padding: 30px;
+        background-color: white;
+        text-align: justify;
+        margin-left: 15%;
+        font-family: "Nunito", serif;
+        font-size: 0.8rem;
+    }
+
+    /*container-6*/
+    .container-6 {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .container-61 {
+        font-size: 1.5rem;
+        margin-left: 4%;
+        display: flex;
+        font-family: "Nunito", serif;
+    }
+
+    .container-61>p {
+        font-weight: bold;
+        margin-left: 4%;
+        text-align: center;
+        display: flex;
+    }
+
+    .view-all {
+        text-align: center;
+        border-radius: 40px;
+        font-size: 1rem;
+        margin-right: 4%;
+        width: 40%;
+    }
+
+
+    .container-62 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+        font-family: "Nunito", serif;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .cont-62-1 {
+
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 90%;
+        margin: 0 auto;
+        height: 450px;
+    }
+
+    .cont-62-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 90%;
+        margin: 0 auto;
+        /* height: 500px; */
+    }
+
+    .cont-62-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cont-62-4 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .image-62 {
+        height: 300px;
+    }
+
+    .image-62:hover {
+        transform: scale(1.5);
+        transition: 0.8s;
+    }
+
+    .para br {
+        display: none;
+    }
+
+
+    /*container-7*/
+    /* .container-7 {
+        width: 100%;
+        margin-top: 20px;
+    } */
+
+    .instagram {
+        font-family: "Nunito", serif;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    .container72-main {
+        display: flex;
+        flex-direction: column;
+        /* display: block; */
+        gap: 10px;
+
+    }
+
+    .image-72 {
+        width: 90%;
+        height: 250px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .image-72>img {
+        width: 90%;
+        height: 250px;
+        margin-left: 30px;
+        border-radius: 15px;
+
+    }
+
+    /*container-8*/
+    .container-8 {
+        /* border:2px solid black; */
+        width: 100%;
+        /* height:600px; */
+        margin-top: 150px;
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 30px;
+        /* gap: 50px; */
+        /* justify-content: space-around; */
+        /* background-color: aliceblue; */
+    }
+
+    .cont-81 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .cont-82,{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .cont-83{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .cont-84 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .cont-81,
+    .cont-82,
+    .cont-83,
+    .cont-84 {
+        /* border:1px solid black; */
+        /* width: 300px; */
+        height: 300px;
+        font-family: "Nunito", serif;
+    }
+
+    .cont-81>p {
+        font-size: 1rem;
+        color: gray;
+    }
+
+    .homes,
+    .abouts,
+    .shops,
+    .blogss,
+    .contactss {
+        text-decoration: none;
+        color: gray;
+        font-size: 1rem;
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .icons-8 {
+        display: flex;
+        gap: 30px;
+        margin-left: 10px;
+        /* justify-content: start; */
+    }
+
+    .track,
+    .shipping,
+    .contact,
+    .faqs {
+        text-decoration: none;
+        color: gray;
+        font-size: 1rem;
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .cont-82>p,
+    .cont-83>p {
+        font-size: 1.3rem;
+    }
+
+    .cont-82 {
+        margin-left: 20px;
+    }
+    .cont-84{
+        display: none;
+    }
+    .footer{
+        display:block;
+    }
+    .footer-main2{
+        font-size: .9rem;
+        text-align: center;
+    }
+
+
+
+}
